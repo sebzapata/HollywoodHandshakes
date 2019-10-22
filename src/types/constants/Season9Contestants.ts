@@ -1,0 +1,14 @@
+export enum Season9Contestants {
+  Antony = "Antony Amourdoux",
+  Briony = "Briony Williams",
+  Dan = "Dan Beasley-Harling",
+  Imelda = "Imelda McCarron",
+  Jon = "Jon Jenkins",
+  Karen = "Karen Wright",
+  Kim = "Kim-Joy Hewlett",
+  Luke = "Luke Thompson",
+  Manon = "Manon Lagrève",
+  Rahul = "Rahul Mandal",
+  Ruby = "Ruby Bhogal",
+  Terry = "Terry Hartill"
+}
