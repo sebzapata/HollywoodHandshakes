@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/HollywoodHandshakes/static/css/main.d4f93819.chunk.css",
-    "main.js": "/HollywoodHandshakes/static/js/main.df2f455e.chunk.js",
-    "main.js.map": "/HollywoodHandshakes/static/js/main.df2f455e.chunk.js.map",
+    "main.css": "/HollywoodHandshakes/static/css/main.f2a4139a.chunk.css",
+    "main.js": "/HollywoodHandshakes/static/js/main.e03ad12e.chunk.js",
+    "main.js.map": "/HollywoodHandshakes/static/js/main.e03ad12e.chunk.js.map",
     "runtime-main.js": "/HollywoodHandshakes/static/js/runtime-main.70861f19.js",
     "runtime-main.js.map": "/HollywoodHandshakes/static/js/runtime-main.70861f19.js.map",
-    "static/js/2.8ba79f5c.chunk.js": "/HollywoodHandshakes/static/js/2.8ba79f5c.chunk.js",
-    "static/js/2.8ba79f5c.chunk.js.map": "/HollywoodHandshakes/static/js/2.8ba79f5c.chunk.js.map",
+    "static/js/2.aeb2591b.chunk.js": "/HollywoodHandshakes/static/js/2.aeb2591b.chunk.js",
+    "static/js/2.aeb2591b.chunk.js.map": "/HollywoodHandshakes/static/js/2.aeb2591b.chunk.js.map",
     "index.html": "/HollywoodHandshakes/index.html",
-    "precache-manifest.2beda0b059523dc1fc6464bb89014d35.js": "/HollywoodHandshakes/precache-manifest.2beda0b059523dc1fc6464bb89014d35.js",
+    "precache-manifest.47106c1ed84eef41b08445a9d0b35c7c.js": "/HollywoodHandshakes/precache-manifest.47106c1ed84eef41b08445a9d0b35c7c.js",
     "service-worker.js": "/HollywoodHandshakes/service-worker.js",
-    "static/css/main.d4f93819.chunk.css.map": "/HollywoodHandshakes/static/css/main.d4f93819.chunk.css.map",
-    "static/media/App.css": "/HollywoodHandshakes/static/media/Cassandra.fb7810a1.ttf"
+    "static/css/main.f2a4139a.chunk.css.map": "/HollywoodHandshakes/static/css/main.f2a4139a.chunk.css.map",
+    "static/media/App.css": "/HollywoodHandshakes/static/media/HussarBoldSuperCondensed.76f605ea.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.70861f19.js",
-    "static/js/2.8ba79f5c.chunk.js",
-    "static/css/main.d4f93819.chunk.css",
-    "static/js/main.df2f455e.chunk.js"
+    "static/js/2.aeb2591b.chunk.js",
+    "static/css/main.f2a4139a.chunk.css",
+    "static/js/main.e03ad12e.chunk.js"
   ]
 }
