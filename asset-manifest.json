@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/HollywoodHandshakes/static/css/main.f2a4139a.chunk.css",
-    "main.js": "/HollywoodHandshakes/static/js/main.e03ad12e.chunk.js",
-    "main.js.map": "/HollywoodHandshakes/static/js/main.e03ad12e.chunk.js.map",
+    "main.css": "/HollywoodHandshakes/static/css/main.d16e1752.chunk.css",
+    "main.js": "/HollywoodHandshakes/static/js/main.01351eba.chunk.js",
+    "main.js.map": "/HollywoodHandshakes/static/js/main.01351eba.chunk.js.map",
     "runtime-main.js": "/HollywoodHandshakes/static/js/runtime-main.70861f19.js",
     "runtime-main.js.map": "/HollywoodHandshakes/static/js/runtime-main.70861f19.js.map",
-    "static/js/2.aeb2591b.chunk.js": "/HollywoodHandshakes/static/js/2.aeb2591b.chunk.js",
-    "static/js/2.aeb2591b.chunk.js.map": "/HollywoodHandshakes/static/js/2.aeb2591b.chunk.js.map",
+    "static/js/2.40f8e566.chunk.js": "/HollywoodHandshakes/static/js/2.40f8e566.chunk.js",
+    "static/js/2.40f8e566.chunk.js.map": "/HollywoodHandshakes/static/js/2.40f8e566.chunk.js.map",
     "index.html": "/HollywoodHandshakes/index.html",
-    "precache-manifest.47106c1ed84eef41b08445a9d0b35c7c.js": "/HollywoodHandshakes/precache-manifest.47106c1ed84eef41b08445a9d0b35c7c.js",
+    "precache-manifest.7dc57606190586ac6b1a7a81a6104419.js": "/HollywoodHandshakes/precache-manifest.7dc57606190586ac6b1a7a81a6104419.js",
     "service-worker.js": "/HollywoodHandshakes/service-worker.js",
-    "static/css/main.f2a4139a.chunk.css.map": "/HollywoodHandshakes/static/css/main.f2a4139a.chunk.css.map",
-    "static/media/App.css": "/HollywoodHandshakes/static/media/HussarBoldSuperCondensed.76f605ea.otf"
+    "static/css/main.d16e1752.chunk.css.map": "/HollywoodHandshakes/static/css/main.d16e1752.chunk.css.map",
+    "static/media/App.css": "/HollywoodHandshakes/static/media/HussarBoldSuperCondensed.76f605ea.otf",
+    "static/media/iconmonstr-minus-1.svg": "/HollywoodHandshakes/static/media/iconmonstr-minus-1.b04340ba.svg",
+    "static/media/iconmonstr-plus-1.svg": "/HollywoodHandshakes/static/media/iconmonstr-plus-1.925bd082.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.70861f19.js",
-    "static/js/2.aeb2591b.chunk.js",
-    "static/css/main.f2a4139a.chunk.css",
-    "static/js/main.e03ad12e.chunk.js"
+    "static/js/2.40f8e566.chunk.js",
+    "static/css/main.d16e1752.chunk.css",
+    "static/js/main.01351eba.chunk.js"
   ]
 }

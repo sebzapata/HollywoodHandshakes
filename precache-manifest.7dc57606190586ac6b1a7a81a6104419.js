@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a59f78dbac1e8d4e6356502797c78fcb",
+    "revision": "bff6fb1877a288e7a2319f333431bded",
     "url": "/HollywoodHandshakes/index.html"
   },
   {
-    "revision": "5ac970fe5aa965ff9ec2",
-    "url": "/HollywoodHandshakes/static/css/main.f2a4139a.chunk.css"
+    "revision": "fca8cf6d96fd47ee06ae",
+    "url": "/HollywoodHandshakes/static/css/main.d16e1752.chunk.css"
   },
   {
-    "revision": "089a178b992bb7be33a2",
-    "url": "/HollywoodHandshakes/static/js/2.aeb2591b.chunk.js"
+    "revision": "42521ba78e247bb1c92d",
+    "url": "/HollywoodHandshakes/static/js/2.40f8e566.chunk.js"
   },
   {
-    "revision": "5ac970fe5aa965ff9ec2",
-    "url": "/HollywoodHandshakes/static/js/main.e03ad12e.chunk.js"
+    "revision": "fca8cf6d96fd47ee06ae",
+    "url": "/HollywoodHandshakes/static/js/main.01351eba.chunk.js"
   },
   {
     "revision": "0b4d1247bc0d7ea1a001",
@@ -30,5 +30,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "76f605eaabf51ffcc02130c128c5da32",
     "url": "/HollywoodHandshakes/static/media/HussarBoldSuperCondensed.76f605ea.otf"
+  },
+  {
+    "revision": "b04340ba59964ace13846da9ebf887ff",
+    "url": "/HollywoodHandshakes/static/media/iconmonstr-minus-1.b04340ba.svg"
+  },
+  {
+    "revision": "925bd082901ff89a3355b7c8075c1ac0",
+    "url": "/HollywoodHandshakes/static/media/iconmonstr-plus-1.925bd082.svg"
   }
 ]);

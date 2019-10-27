@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/HollywoodHandshakes/precache-manifest.47106c1ed84eef41b08445a9d0b35c7c.js"
+  "/HollywoodHandshakes/precache-manifest.7dc57606190586ac6b1a7a81a6104419.js"
 );
 
 self.addEventListener('message', (event) => {
