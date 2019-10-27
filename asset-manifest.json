@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/HollywoodHandshakes/static/css/main.d16e1752.chunk.css",
+    "main.css": "/HollywoodHandshakes/static/css/main.a8ec8bdf.chunk.css",
     "main.js": "/HollywoodHandshakes/static/js/main.01351eba.chunk.js",
     "main.js.map": "/HollywoodHandshakes/static/js/main.01351eba.chunk.js.map",
     "runtime-main.js": "/HollywoodHandshakes/static/js/runtime-main.70861f19.js",
@@ -8,9 +8,9 @@
     "static/js/2.40f8e566.chunk.js": "/HollywoodHandshakes/static/js/2.40f8e566.chunk.js",
     "static/js/2.40f8e566.chunk.js.map": "/HollywoodHandshakes/static/js/2.40f8e566.chunk.js.map",
     "index.html": "/HollywoodHandshakes/index.html",
-    "precache-manifest.7dc57606190586ac6b1a7a81a6104419.js": "/HollywoodHandshakes/precache-manifest.7dc57606190586ac6b1a7a81a6104419.js",
+    "precache-manifest.4b7ac2742da40d374c78290e78d0507d.js": "/HollywoodHandshakes/precache-manifest.4b7ac2742da40d374c78290e78d0507d.js",
     "service-worker.js": "/HollywoodHandshakes/service-worker.js",
-    "static/css/main.d16e1752.chunk.css.map": "/HollywoodHandshakes/static/css/main.d16e1752.chunk.css.map",
+    "static/css/main.a8ec8bdf.chunk.css.map": "/HollywoodHandshakes/static/css/main.a8ec8bdf.chunk.css.map",
     "static/media/App.css": "/HollywoodHandshakes/static/media/HussarBoldSuperCondensed.76f605ea.otf",
     "static/media/iconmonstr-minus-1.svg": "/HollywoodHandshakes/static/media/iconmonstr-minus-1.b04340ba.svg",
     "static/media/iconmonstr-plus-1.svg": "/HollywoodHandshakes/static/media/iconmonstr-plus-1.925bd082.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.70861f19.js",
     "static/js/2.40f8e566.chunk.js",
-    "static/css/main.d16e1752.chunk.css",
+    "static/css/main.a8ec8bdf.chunk.css",
     "static/js/main.01351eba.chunk.js"
   ]
 }
