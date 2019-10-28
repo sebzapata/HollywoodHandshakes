@@ -1,4 +1,4 @@
-export enum Season1Contestants {
+export enum Season10Contestants {
   Alice = "Alice Fevronia",
   Amelia = "Amelia Le Bruin",
   Dan = "Dan Chambers",

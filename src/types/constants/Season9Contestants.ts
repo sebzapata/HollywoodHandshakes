@@ -5,7 +5,7 @@ export enum Season9Contestants {
   Imelda = "Imelda McCarron",
   Jon = "Jon Jenkins",
   Karen = "Karen Wright",
-  Kim = "Kim-Joy Hewlett",
+  KimJoy = "Kim-Joy Hewlett",
   Luke = "Luke Thompson",
   Manon = "Manon Lagrève",
   Rahul = "Rahul Mandal",
