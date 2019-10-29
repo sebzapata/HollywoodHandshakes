@@ -18,16 +18,11 @@ export class AccordionItem extends React.Component<Props, State> {
   }
 
   render() {
-    const styles = {
-      buttonStyle: {
-
-      }
-    };
     return (
       <div className="accordion__section">
         <div className="accordion__section__header" onClick={() => this.setState({accordionOpen: !this.state.accordionOpen})}>
           <button className="accordion__section__header__title">{this.props.title}</button>
-          <img className="accordion__section__header__icon" src={this.state.accordionOpen ? minusIcon : plusIcon}/>
+          <img className="accordion__section__header__icon" src={this.state.accordionOpen ? minusIcon : plusIcon} alt={this.state.accordionOpen ? "Close accordion" : "Open accordion"}/>
         </div>
         {this.state.accordionOpen && <div className="accordion__section__panel">
           {this.props.children}

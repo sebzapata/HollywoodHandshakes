@@ -4,7 +4,7 @@ import { episodeList } from "./episodeList";
 
 
 export const season6: Season = {
-  network: Networks.BBC,
+  network: Networks.BBC1,
   number: 6,
   episodes: episodeList
 };

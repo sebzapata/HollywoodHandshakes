@@ -1,4 +1,5 @@
 export enum Networks {
-  BBC = "BBC",
+  BBC1 = "BBC One",
+  BBC2 = "BBC Two",
   Channel4 = "Channel 4"
 }
