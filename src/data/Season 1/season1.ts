@@ -3,7 +3,7 @@ import { Networks } from "../../types/constants/Networks";
 import { episodeList } from "./episodeList";
 
 export const season1: Season = {
-  network: Networks.BBC,
+  network: Networks.BBC2,
   number: 1,
   episodes: episodeList
 };

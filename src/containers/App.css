@@ -13,10 +13,17 @@
 }
 
 @font-face {
-  font-family: "Hussar";
+  font-family: "HussarBoldSuperCondensed";
   font-style: normal;
   font-weight: 400;
-  src: local("Hussar"), url("../fonts/HussarBoldSuperCondensed.otf")format("opentype");
+  src: local("HussarBoldSuperCondensed"), url("../fonts/HussarBoldSuperCondensed.otf")format("opentype");
+}
+
+@font-face {
+  font-family: "HussarBold";
+  font-style: normal;
+  font-weight: 400;
+  src: local("HussarBold"), url("../fonts/HussarBold.otf")format("opentype");
 }
 #root {
   margin: 1em;
@@ -77,12 +84,12 @@
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  margin-top: 0.1em;
-  margin-bottom: 0.1em;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
 }
 .accordion__section__header__title {
-  font-family: Hussar;
-  font-size: 1em;
+  font-family: HussarBold;
+  font-size: 1.2em;
   background: none;
   border: none;
   line-height: 1em;
@@ -90,7 +97,7 @@
 }
 
 .accordion__section__header__icon {
-  height: 1em;
+  height: 1.2em;
 }
 
 /* Mobile Styles */
@@ -105,6 +112,10 @@
 
   .header__subtitle__span {
     white-space: nowrap;
+  }
+
+  .handshake__image {
+    width: 100%;
   }
 }
 
@@ -132,4 +143,5 @@
   .page {
     width: 50%;
   }
+
 }
