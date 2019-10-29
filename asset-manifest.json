@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/HollywoodHandshakes/static/css/main.f36b5ff6.chunk.css",
-    "main.js": "/HollywoodHandshakes/static/js/main.e39d8b82.chunk.js",
-    "main.js.map": "/HollywoodHandshakes/static/js/main.e39d8b82.chunk.js.map",
+    "main.css": "/HollywoodHandshakes/static/css/main.fc526218.chunk.css",
+    "main.js": "/HollywoodHandshakes/static/js/main.781ffff2.chunk.js",
+    "main.js.map": "/HollywoodHandshakes/static/js/main.781ffff2.chunk.js.map",
     "runtime-main.js": "/HollywoodHandshakes/static/js/runtime-main.70861f19.js",
     "runtime-main.js.map": "/HollywoodHandshakes/static/js/runtime-main.70861f19.js.map",
     "static/js/2.6d0081ca.chunk.js": "/HollywoodHandshakes/static/js/2.6d0081ca.chunk.js",
     "static/js/2.6d0081ca.chunk.js.map": "/HollywoodHandshakes/static/js/2.6d0081ca.chunk.js.map",
     "index.html": "/HollywoodHandshakes/index.html",
-    "precache-manifest.b78c012dc69a5d329c8a44df39d7176f.js": "/HollywoodHandshakes/precache-manifest.b78c012dc69a5d329c8a44df39d7176f.js",
+    "precache-manifest.82362c0b7d687162437e4f727655140e.js": "/HollywoodHandshakes/precache-manifest.82362c0b7d687162437e4f727655140e.js",
     "service-worker.js": "/HollywoodHandshakes/service-worker.js",
-    "static/css/main.f36b5ff6.chunk.css.map": "/HollywoodHandshakes/static/css/main.f36b5ff6.chunk.css.map",
+    "static/css/main.fc526218.chunk.css.map": "/HollywoodHandshakes/static/css/main.fc526218.chunk.css.map",
     "static/media/App.css": "/HollywoodHandshakes/static/media/HussarBoldSuperCondensed.76f605ea.otf",
     "static/media/S03E07 - Ryan.png": "/HollywoodHandshakes/static/media/S03E07 - Ryan.3e6d9332.png",
     "static/media/S04E09 - Frances.png": "/HollywoodHandshakes/static/media/S04E09 - Frances.a64c0d16.png",
@@ -52,7 +52,7 @@
   "entrypoints": [
     "static/js/runtime-main.70861f19.js",
     "static/js/2.6d0081ca.chunk.js",
-    "static/css/main.f36b5ff6.chunk.css",
-    "static/js/main.e39d8b82.chunk.js"
+    "static/css/main.fc526218.chunk.css",
+    "static/js/main.781ffff2.chunk.js"
   ]
 }
