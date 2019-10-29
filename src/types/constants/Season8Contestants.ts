@@ -10,5 +10,5 @@ export enum Season8Contestants {
   Stacey = "Stacey Hart",
   Steven = "Steven Carter-Bailey",
   Tom = "Tom Hetherington",
-  Chuen = "Chuen-Yan 'Yan' Tsou"
+  Yan = "Chuen-Yan 'Yan' Tsou"
 }
