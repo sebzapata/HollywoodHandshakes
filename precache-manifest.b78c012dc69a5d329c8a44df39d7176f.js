@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6101e3ba492f0d36a1d16911d78144d4",
+    "revision": "140609007c620faca4ef661bd12d9eee",
     "url": "/HollywoodHandshakes/index.html"
   },
   {
