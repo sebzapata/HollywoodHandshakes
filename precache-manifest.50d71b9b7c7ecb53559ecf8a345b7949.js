@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a8cd65c6b53d0d7571a5cbce52d2987",
+    "revision": "317ec59e3807b5a235a629369ad24fd9",
     "url": "/HollywoodHandshakes/index.html"
   },
   {
-    "revision": "31a478138fbaf143f087",
-    "url": "/HollywoodHandshakes/static/css/main.fc526218.chunk.css"
+    "revision": "459cee30ca4425f75d3a",
+    "url": "/HollywoodHandshakes/static/css/main.0070ff96.chunk.css"
   },
   {
     "revision": "824ff42d5fbee0c8ac50",
     "url": "/HollywoodHandshakes/static/js/2.6d0081ca.chunk.js"
   },
   {
-    "revision": "31a478138fbaf143f087",
-    "url": "/HollywoodHandshakes/static/js/main.781ffff2.chunk.js"
+    "revision": "459cee30ca4425f75d3a",
+    "url": "/HollywoodHandshakes/static/js/main.b96cd49c.chunk.js"
   },
   {
     "revision": "0b4d1247bc0d7ea1a001",
     "url": "/HollywoodHandshakes/static/js/runtime-main.70861f19.js"
   },
   {
-    "revision": "514aa3b99f4f9a96851d8684c2c4208f",
-    "url": "/HollywoodHandshakes/static/media/Architect.514aa3b9.ttf"
+    "revision": "bd1a94e62db25433135ef3826e69fd02",
+    "url": "/HollywoodHandshakes/static/media/ArchitectRegular.bd1a94e6.ttf"
   },
   {
     "revision": "fb7810a162bf25d3929a3e9e0b8120cd",
