@@ -5,6 +5,7 @@ import {AccordionItem} from "../components/accordionItem";
 import {Accordion} from "../components/accordion";
 import { Data } from "../data/data";
 import { Season } from "../types/Season";
+import { PhotoWithDetails } from "../components/photoWithDetails";
 
 
 const App: React.FC = () => {
@@ -15,11 +16,11 @@ const App: React.FC = () => {
       return <p>{`No handshakes were given out in season ${season.number}`}</p>
     }
 
-    return handshakes.map(x => {
-      if (!x) return null;
+    return season.episodes.map(e => {
+      if (!e.handshakes) return null;
 
-      return x.map(y => <img className="handshake__image" src={y.image} alt={`Handshake being given to ${y.recipient}`} key={y.image}/>)
-    })
+      return e.handshakes.map(handshake => <PhotoWithDetails handshake={handshake} episode={e} season={season}/>)
+    });
   };
 
   const renderAccordions = () => {

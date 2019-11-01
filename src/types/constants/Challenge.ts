@@ -1,5 +1,5 @@
 export enum Challenge {
-  Signature = "Signature challenge",
-  Technical = "Technical challenge",
-  Showstopper = "Showstopper challenge"
+  Signature = "signature challenge",
+  Technical = "technical challenge",
+  Showstopper = "showstopper challenge"
 }
