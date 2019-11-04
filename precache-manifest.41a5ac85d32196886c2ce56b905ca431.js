@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "317ec59e3807b5a235a629369ad24fd9",
+    "revision": "5c70bb552dd3be25e2355345ce6089f0",
     "url": "/HollywoodHandshakes/index.html"
   },
   {
-    "revision": "459cee30ca4425f75d3a",
-    "url": "/HollywoodHandshakes/static/css/main.0070ff96.chunk.css"
+    "revision": "638f5774a7924c98f8a7",
+    "url": "/HollywoodHandshakes/static/css/main.72e90921.chunk.css"
   },
   {
-    "revision": "824ff42d5fbee0c8ac50",
-    "url": "/HollywoodHandshakes/static/js/2.6d0081ca.chunk.js"
+    "revision": "f3c268d41de838939bb7",
+    "url": "/HollywoodHandshakes/static/js/2.44488b40.chunk.js"
   },
   {
-    "revision": "459cee30ca4425f75d3a",
-    "url": "/HollywoodHandshakes/static/js/main.b96cd49c.chunk.js"
+    "revision": "638f5774a7924c98f8a7",
+    "url": "/HollywoodHandshakes/static/js/main.cbcc346c.chunk.js"
   },
   {
     "revision": "0b4d1247bc0d7ea1a001",

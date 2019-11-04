@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/HollywoodHandshakes/static/css/main.0070ff96.chunk.css",
-    "main.js": "/HollywoodHandshakes/static/js/main.b96cd49c.chunk.js",
-    "main.js.map": "/HollywoodHandshakes/static/js/main.b96cd49c.chunk.js.map",
+    "main.css": "/HollywoodHandshakes/static/css/main.72e90921.chunk.css",
+    "main.js": "/HollywoodHandshakes/static/js/main.cbcc346c.chunk.js",
+    "main.js.map": "/HollywoodHandshakes/static/js/main.cbcc346c.chunk.js.map",
     "runtime-main.js": "/HollywoodHandshakes/static/js/runtime-main.70861f19.js",
     "runtime-main.js.map": "/HollywoodHandshakes/static/js/runtime-main.70861f19.js.map",
-    "static/js/2.6d0081ca.chunk.js": "/HollywoodHandshakes/static/js/2.6d0081ca.chunk.js",
-    "static/js/2.6d0081ca.chunk.js.map": "/HollywoodHandshakes/static/js/2.6d0081ca.chunk.js.map",
+    "static/js/2.44488b40.chunk.js": "/HollywoodHandshakes/static/js/2.44488b40.chunk.js",
+    "static/js/2.44488b40.chunk.js.map": "/HollywoodHandshakes/static/js/2.44488b40.chunk.js.map",
     "index.html": "/HollywoodHandshakes/index.html",
-    "precache-manifest.50d71b9b7c7ecb53559ecf8a345b7949.js": "/HollywoodHandshakes/precache-manifest.50d71b9b7c7ecb53559ecf8a345b7949.js",
+    "precache-manifest.41a5ac85d32196886c2ce56b905ca431.js": "/HollywoodHandshakes/precache-manifest.41a5ac85d32196886c2ce56b905ca431.js",
     "service-worker.js": "/HollywoodHandshakes/service-worker.js",
-    "static/css/main.0070ff96.chunk.css.map": "/HollywoodHandshakes/static/css/main.0070ff96.chunk.css.map",
+    "static/css/main.72e90921.chunk.css.map": "/HollywoodHandshakes/static/css/main.72e90921.chunk.css.map",
     "static/media/App.css": "/HollywoodHandshakes/static/media/HussarBoldSuperCondensed.76f605ea.otf",
     "static/media/S03E07 - Ryan.png": "/HollywoodHandshakes/static/media/S03E07 - Ryan.3e6d9332.png",
     "static/media/S04E09 - Frances.png": "/HollywoodHandshakes/static/media/S04E09 - Frances.a64c0d16.png",
@@ -51,8 +51,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.70861f19.js",
-    "static/js/2.6d0081ca.chunk.js",
-    "static/css/main.0070ff96.chunk.css",
-    "static/js/main.b96cd49c.chunk.js"
+    "static/js/2.44488b40.chunk.js",
+    "static/css/main.72e90921.chunk.css",
+    "static/js/main.cbcc346c.chunk.js"
   ]
 }
