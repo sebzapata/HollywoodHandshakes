@@ -1,8 +1,8 @@
 import {Episode} from "../../types/Episode";
 import {Season5Contestants} from "../../types/constants/Season5Contestants";
 import {Challenge} from "../../types/constants/Challenge";
-import Handshake3 from "../../images/handshakes/S05E02 - Norman.png"
-import Handshake4 from "../../images/handshakes/S05E03 - Luis.png"
+import Handshake3 from "../../images/handshakes/S05E02 - Norman.jpg"
+import Handshake4 from "../../images/handshakes/S05E03 - Luis.jpg"
 
 export const episodeList: Episode[] = [
   {

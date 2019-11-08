@@ -1,18 +1,18 @@
 import { Challenge } from "../../types/constants/Challenge";
 import { Episode } from "../../types/Episode";
 import { Season9Contestants } from "../../types/constants/Season9Contestants";
-import Handshake19 from "../../images/handshakes/S09E02 (1) - Dan.png"
-import Handshake20 from "../../images/handshakes/S09E02 (2) - Rahul.png"
-import Handshake21 from "../../images/handshakes/S09E02 (3) - Ruby.png"
-import Handshake22 from "../../images/handshakes/S09E03 - Dan.png"
-import Handshake23 from "../../images/handshakes/S09E04 (1) - Dan.png"
-import Handshake24 from "../../images/handshakes/S09E04 (2) - Jon.png"
-import Handshake25 from "../../images/handshakes/S09E05 (1) - Rahul.png"
-import Handshake26 from "../../images/handshakes/S09E05 (2) - Kim-Joy.png"
-import Handshake27 from "../../images/handshakes/S09E05 (3) - Manon.png"
-import Handshake28 from "../../images/handshakes/S09E06 (1) - Ruby.png"
-import Handshake29 from "../../images/handshakes/S09E06 (2) - Rahul.png"
-import Handshake30 from "../../images/handshakes/S09E07 (1) - Kim-Joy.png"
+import Handshake19 from "../../images/handshakes/S09E02 (1) - Dan.jpg"
+import Handshake20 from "../../images/handshakes/S09E02 (2) - Rahul.jpg"
+import Handshake21 from "../../images/handshakes/S09E02 (3) - Ruby.jpg"
+import Handshake22 from "../../images/handshakes/S09E03 - Dan.jpg"
+import Handshake23 from "../../images/handshakes/S09E04 (1) - Dan.jpg"
+import Handshake24 from "../../images/handshakes/S09E04 (2) - Jon.jpg"
+import Handshake25 from "../../images/handshakes/S09E05 (1) - Rahul.jpg"
+import Handshake26 from "../../images/handshakes/S09E05 (2) - Kim-Joy.jpg"
+import Handshake27 from "../../images/handshakes/S09E05 (3) - Manon.jpg"
+import Handshake28 from "../../images/handshakes/S09E06 (1) - Ruby.jpg"
+import Handshake29 from "../../images/handshakes/S09E06 (2) - Rahul.jpg"
+import Handshake30 from "../../images/handshakes/S09E07 (1) - Kim-Joy.jpg"
 
 export const episodeList: Episode[] = [
   {
