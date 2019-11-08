@@ -1,10 +1,10 @@
 import {Episode} from "../../types/Episode";
 import {Season7Contestants} from "../../types/constants/Season7Contestants";
 import {Challenge} from "../../types/constants/Challenge";
-import Handshake8 from "../../images/handshakes/S07E02 - Tom.png"
-import Handshake9 from "../../images/handshakes/S07E04 - Selasi.png"
-import Handshake10 from "../../images/handshakes/S07E10(1) - Candice.png"
-import Handshake11 from "../../images/handshakes/S07E10(2) - Jane.png"
+import Handshake8 from "../../images/handshakes/S07E02 - Tom.jpg"
+import Handshake9 from "../../images/handshakes/S07E04 - Selasi.jpg"
+import Handshake10 from "../../images/handshakes/S07E10(1) - Candice.jpg"
+import Handshake11 from "../../images/handshakes/S07E10(2) - Jane.jpg"
 
 export const episodeList: Episode[] = [
   {

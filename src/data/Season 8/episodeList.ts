@@ -1,13 +1,13 @@
 import { Challenge } from "../../types/constants/Challenge";
 import { Episode } from "../../types/Episode";
 import { Season8Contestants } from "../../types/constants/Season8Contestants";
-import Handshake12 from "../../images/handshakes/S08E01(1) - Steven.png"
-import Handshake13 from "../../images/handshakes/S08E01(2) - Sophie.png"
-import Handshake14 from "../../images/handshakes/S08E04 - Liam.png"
-import Handshake15 from "../../images/handshakes/S08E05 (1) - Steven.png"
-import Handshake16 from "../../images/handshakes/S08E05 (2) - Yan.png"
-import Handshake17 from "../../images/handshakes/S08E05 (3) - Stacey.png"
-import Handshake18 from "../../images/handshakes/S08E08 - Stacey.png"
+import Handshake12 from "../../images/handshakes/S08E01(1) - Steven.jpg"
+import Handshake13 from "../../images/handshakes/S08E01(2) - Sophie.jpg"
+import Handshake14 from "../../images/handshakes/S08E04 - Liam.jpg"
+import Handshake15 from "../../images/handshakes/S08E05 (1) - Steven.jpg"
+import Handshake16 from "../../images/handshakes/S08E05 (2) - Yan.jpg"
+import Handshake17 from "../../images/handshakes/S08E05 (3) - Stacey.jpg"
+import Handshake18 from "../../images/handshakes/S08E08 - Stacey.jpg"
 
 export const episodeList: Episode[] = [
   {
