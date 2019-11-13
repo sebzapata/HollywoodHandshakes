@@ -48,10 +48,12 @@ export class PhotoWithDetails extends React.Component<Props, State>{
   };
 
   renderHandshake = (clickable: boolean, className?: string) => {
+    const { handshake, season, episode } = this.props;
+
     return (
       <div className={`handshake ${className}`} onClick={(e) => clickable && this.toggleImage(e)}>
-        <img className="handshake__image" src={this.props.handshake.image} alt={`Handshake being given to ${this.props.handshake.recipient}`} key={this.props.handshake.image}/>
-        <p className="handshake__description__text">{`Episode ${this.props.episode.number}, ${this.props.handshake.recipient}, ${this.props.handshake.challenge}`}</p>
+        <img className="handshake__image" src={handshake.image} alt={`Paul Hollywood giving a handshake to ${handshake.recipient} on season ${season.number}, episode ${episode.number} of The Great British Bake Off`} key={handshake.image}/>
+        <p className="handshake__description__text">{`Episode ${episode.number}, ${handshake.recipient}, ${handshake.challenge}`}</p>
       </div>
     )
   };
