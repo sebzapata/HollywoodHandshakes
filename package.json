@@ -1,43 +1,55 @@
 {
-  "homepage": ".",
   "name": "hollywood-handshakes",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@types/jest": "24.0.19",
-    "@types/node": "12.11.2",
-    "@types/react": "16.9.9",
-    "@types/react-dom": "16.9.2",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0",
-    "typescript": "3.6.4"
-  },
+  "version": "1.0.0",
+  "description": "The definitive collection of Paul Hollywood's infamous handshakes",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "gh-predeploy": "npm run build",
-    "gh-deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --open",
+    "build": "webpack --config webpack.config.js --mode production",
     "deploy": "aws s3 sync build/ s3://hollywoodhandshakes --acl public-read"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebzapata/HollywoodHandshakes.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "keywords": [
+    "Paul",
+    "Hollywood",
+    "Handshakes",
+    "Great",
+    "British",
+    "Bake",
+    "Off"
+  ],
+  "author": "Sebastian Zapata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebzapata/HollywoodHandshakes/issues"
+  },
+  "homepage": "https://github.com/sebzapata/HollywoodHandshakes#readme",
+  "dependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "sass-loader": "^8.0.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "file-loader": "^4.2.0"
   }
 }

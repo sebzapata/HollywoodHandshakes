@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import {Header} from "../components/header";
 import {AccordionItem} from "../components/accordionItem";
 import {Accordion} from "../components/accordion";
@@ -13,7 +13,7 @@ const App: React.FC = () => {
     const handshakes = season.episodes.map(e => e.handshakes);
 
     if(handshakes.every(h => h === null)) {
-      return <p>{`No handshakes were given out in season ${season.number}`}</p>
+      return <p className="handshake__description__text">{`No handshakes were given out in season ${season.number}`}</p>
     }
 
     return season.episodes.map(e => {
