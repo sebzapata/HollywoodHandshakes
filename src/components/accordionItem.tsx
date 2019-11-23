@@ -13,8 +13,14 @@ export class AccordionItem extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
     this.state = {
-      accordionOpen: false
+      accordionOpen: true
     }
+  }
+
+  componentDidMount(): void {
+    this.setState({
+      accordionOpen: false
+    })
   }
 
   render() {
