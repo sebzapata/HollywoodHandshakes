@@ -19,7 +19,7 @@ class App extends React.Component {
     const handshakes = season.episodes.map(e => e.handshakes);
 
     if(handshakes.every(h => h === null)) {
-      return <p className="handshake__description__text">No <i>Hollywood Handshakes</i> were given out in season {season.number}</p>
+      return <p className="handshake__description">No <i>Hollywood Handshakes</i> were given out in season {season.number}</p>
     }
 
     return season.episodes.map(e => {
