@@ -22,7 +22,7 @@ There wasn't a place where it was clear how many had been given out and when, so
 
 ### Where?
 
-This website can be found at https://sebzapata.github.io/HollywoodHandshakes/
+This website can be found at www.hollywoodhandshakes.com
 
 ## How?
 
