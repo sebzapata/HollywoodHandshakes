@@ -34,7 +34,7 @@ const App: React.FC = () => {
 
   const links = [
     {
-      text: "© hollywoodhandshakes.cmm",
+      text: `© ${new Date().getFullYear()} hollywoodhandshakes.com`,
       route: "https://www.hollywoodhandshakes.com"
     },
     {
