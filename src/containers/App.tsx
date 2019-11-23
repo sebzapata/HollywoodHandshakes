@@ -35,7 +35,7 @@ const App: React.FC = () => {
   const links = [
     {
       text: "© hollywoodhandshakes.cmm",
-      route: "hollywoodhandshakes.com"
+      route: "https://www.hollywoodhandshakes.com"
     },
     {
       text: "About",
