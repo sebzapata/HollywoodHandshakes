@@ -54,6 +54,11 @@
   box-sizing: border-box;
   width: 100%;
   min-height: 100vh;
+  @supports (-webkit-appearance:none) {
+    .os-android & {
+      min-height: calc(100vh - 56px);
+    }
+  }
 }
 
 .page__content {
