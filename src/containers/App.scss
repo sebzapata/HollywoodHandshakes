@@ -185,12 +185,38 @@
   color: black;
 }
 
+.about {
+  h2 {
+    font-family: HussarBold;
+    margin: 0 0 1em;
+  }
+  p {
+    font-family: Architect;
+    font-weight: bolder;
+    margin: 0 0 1em;
+  }
+
+  a {
+    font-family: Architect;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bolder;
+    color: #999;
+
+    &:hover {
+      color: black;
+    }
+  }
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   .header__title {
     font-size: 1em;
   }
 
+  .footer__link,
   .header__subtitle {
     font-size: 0.8em;
   }
@@ -202,6 +228,7 @@
   .handshake__content__watermark {
     font-size: 0.6em;
   }
+
 }
 
 /* Tablet Styles */

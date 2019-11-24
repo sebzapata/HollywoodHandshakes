@@ -1,15 +1,19 @@
 import React from "react";
 
-interface Props {
-  links: {
-    text: string;
-    route: string;
-  }[]
-}
+const links = [
+  {
+    text: `© ${new Date().getFullYear()} hollywoodhandshakes.com`,
+    route: "/"
+  },
+  {
+    text: "About",
+    route: "/about"
+  }
+];
 
-export const Footer = (props: Props) => (
+export const Footer = () => (
   <div className="footer">
-    {props.links.map((x) => <a href={x.route} className="footer__link">{x.text}</a>)}
+    {links.map((x) => <a href={x.route} className="footer__link">{x.text}</a>)}
   </div>
 );
 
