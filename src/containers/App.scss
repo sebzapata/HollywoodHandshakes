@@ -78,6 +78,7 @@
   font-family: Architect;
   text-align: center;
   margin-top: 0;
+  font-size: 1em;
 }
 
 .header__subtitle__span {
@@ -211,34 +212,32 @@
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 425px) {
   .header__title {
     font-size: 1em;
-  }
-
-  .footer__link,
-  .header__subtitle {
-    font-size: 0.8em;
   }
 
   .header__subtitle__span {
     white-space: nowrap;
   }
 
+  .footer__link{
+    font-size: 0.8em;
+  }
+
   .handshake__content__watermark {
     font-size: 0.6em;
   }
-
 }
 
 /* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 990px) {
+@media only screen and (min-width: 426px) and (max-width: 990px) {
   .header__title {
     font-size: 1.2em;
   }
 
-  .header__subtitle {
-    font-size: 1em;
+  .header__subtitle__break {
+    display: none;
   }
 
   .handshake__description {
@@ -258,6 +257,10 @@
 
   .header__subtitle {
     font-size: 1.2em;
+  }
+
+  .header__subtitle__break {
+    display: none;
   }
 
   .page {
