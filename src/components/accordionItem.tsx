@@ -1,26 +1,34 @@
 import React from "react";
+import classNames from 'classnames';
 import plusIcon from "../images/miscellaneous/iconmonstr-plus-1.svg";
 import minusIcon from "../images/miscellaneous/iconmonstr-minus-1.svg";
+
 interface Props {
   title: string;
 }
 
 interface State {
   accordionOpen: boolean;
+  isRendered: boolean;
 }
+
 export class AccordionItem extends React.Component<Props, State> {
 
   constructor(props: Props) {
     super(props);
     this.state = {
-      accordionOpen: true
+      accordionOpen: true,
+      isRendered: false,
     }
   }
 
   componentDidMount(): void {
-    this.setState({
-      accordionOpen: false
-    })
+    setTimeout(() =>  {
+      this.setState({
+        accordionOpen: false,
+        isRendered: true,
+      });
+    }, 250);
   }
 
   render() {
@@ -30,7 +38,7 @@ export class AccordionItem extends React.Component<Props, State> {
           <button className="accordion__section__header__title">{this.props.title}</button>
           <img className="accordion__section__header__icon" src={this.state.accordionOpen ? minusIcon : plusIcon} alt={this.state.accordionOpen ? "Close accordion" : "Open accordion"}/>
         </div>
-        {this.state.accordionOpen && <div className="accordion__section__panel">
+        {this.state.accordionOpen && <div className={classNames("accordion__section__panel", {"accordion__section__panel--hidden": !this.state.isRendered})}>
           {this.props.children}
         </div>}
       </div>

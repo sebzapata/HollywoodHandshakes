@@ -103,6 +103,10 @@
   flex-wrap: wrap;
 }
 
+.accordion__section__panel--hidden {
+  display: none;
+}
+
 .accordion__section__header {
   cursor: pointer;
   display: flex;
