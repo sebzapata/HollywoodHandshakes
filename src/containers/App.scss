@@ -2,28 +2,36 @@
   font-family: "Architect";
   font-style: normal;
   font-weight: 400;
-  src: local("Architect"), url("../fonts/ArchitectRegular.ttf")format("truetype");
+  src: local("Architect"),
+    url("../fonts/ArchitectRegular.woff2")format("woff2"),
+    url("../fonts/ArchitectRegular.woff")format("woff");
 }
 
 @font-face {
   font-family: "Cassandra";
   font-style: normal;
   font-weight: 400;
-  src: local("Cassandra"), url("../fonts/Cassandra.ttf")format("truetype");
+  src: local("Cassandra"),
+    url("../fonts/Cassandra.woff2")format("woff2"),
+    url("../fonts/Cassandra.woff")format("woff");
 }
 
 @font-face {
   font-family: "HussarBoldSuperCondensed";
   font-style: normal;
   font-weight: 400;
-  src: local("HussarBoldSuperCondensed"), url("../fonts/HussarBoldSuperCondensed.otf")format("opentype");
+  src: local("HussarBoldSuperCondensed"),
+    url("../fonts/HussarBoldSuperCondensed.woff2")format("woff2"),
+    url("../fonts/HussarBoldSuperCondensed.woff")format("woff");
 }
 
 @font-face {
   font-family: "HussarBold";
   font-style: normal;
   font-weight: 400;
-  src: local("HussarBold"), url("../fonts/HussarBold.otf")format("opentype");
+  src: local("HussarBold"),
+    url("../fonts/HussarBold.woff2")format("woff2"),
+    url("../fonts/HussarBold.woff")format("woff");
 }
 #root {
   width: 100%;
