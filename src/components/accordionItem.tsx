@@ -17,19 +17,19 @@ export class AccordionItem extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
     this.state = {
-      accordionOpen: true,
-      isRendered: false,
+      accordionOpen: false,
+      isRendered: true,
     }
   }
 
-  componentDidMount(): void {
-    setTimeout(() =>  {
-      this.setState({
-        accordionOpen: false,
-        isRendered: true,
-      });
-    }, 250);
-  }
+  // componentDidMount(): void {
+  //   setTimeout(() =>  {
+  //     this.setState({
+  //       accordionOpen: false,
+  //       isRendered: true,
+  //     });
+  //   }, 250);
+  // }
 
   render() {
     return (
