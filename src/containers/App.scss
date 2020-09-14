@@ -132,6 +132,10 @@
   border: none;
   line-height: 1em;
   height: 0.9em;
+
+  &:focus {
+    outline: none;
+  }
 }
 
 .accordion__section__header__icon {
