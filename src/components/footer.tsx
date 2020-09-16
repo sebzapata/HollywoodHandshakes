@@ -11,7 +11,7 @@ const links = [
   }
 ];
 
-export const Footer = () => (
+export const Footer: React.FunctionComponent = () => (
   <div className="footer">
     {links.map((x) => <a href={x.route} className="footer__link">{x.text}</a>)}
   </div>

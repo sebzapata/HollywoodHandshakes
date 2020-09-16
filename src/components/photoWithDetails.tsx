@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Handshake } from "../types/Handshake";
 import { Episode } from "../types/Episode";
 import { Season } from "../types/Season";
@@ -9,49 +9,27 @@ interface Props {
   season: Season
 }
 
-interface State {
-  isOpen: boolean;
-}
+export const PhotoWithDetails: React.FunctionComponent<Props> = ({ handshake, episode, season }) => {
+  const [isOpen, setIsOpen] = useState(false);
 
-export class PhotoWithDetails extends React.Component<Props, State>{
-  constructor(props: Props) {
-    super(props);
+  useEffect(() => {
+    document.addEventListener("keydown", escapeKeyDown);
 
-    this.state = {
-      isOpen: false
+    return () => {
+      document.removeEventListener("keydown", escapeKeyDown);
     }
-  }
+  });
 
-  componentDidMount(): void {
-    document.addEventListener("keydown", this.escapeKeyDown);
-  }
 
-  componentWillUnmount(): void {
-    document.removeEventListener("keydown", this.escapeKeyDown);
-  }
-
-  render() {
-    return (
-      <React.Fragment>
-        {this.renderHandshake(true)}
-        {this.renderModal(this.state.isOpen)}
-      </React.Fragment>
-    )
-  }
-
-  toggleImage = (event: React.MouseEvent<HTMLElement>, limitClickTo?: string) => {
+  const toggleImage = (event: React.MouseEvent<HTMLElement>, limitClickTo?: string) => {
     if (!limitClickTo || ((event.target as HTMLElement).className === limitClickTo)) {
-      this.setState({
-        isOpen: !this.state.isOpen
-      })
+      setIsOpen(!isOpen)
     }
   };
 
-  renderHandshake = (clickable: boolean, className?: string) => {
-    const { handshake, season, episode } = this.props;
-
+  const renderHandshake = (clickable: boolean, className?: string) => {
     return (
-      <div className={`handshake ${className}`} onClick={(e) => clickable && this.toggleImage(e)}>
+      <div className={`handshake ${className}`} onClick={(e) => clickable && toggleImage(e)}>
         <div className="handshake__content">
           <img className="handshake__content__image" src={handshake.image} alt={`Paul Hollywood giving a handshake to ${handshake.recipient} on season ${season.number}, episode ${episode.number} of The Great British Bake Off`} key={handshake.image} />
           <p className="handshake__content__watermark">{`© ${season.network}`}</p>
@@ -61,21 +39,26 @@ export class PhotoWithDetails extends React.Component<Props, State>{
     )
   };
 
-  renderModal = (isOpen: boolean) => {
+  const renderModal = (isOpen: boolean) => {
     if (!isOpen) return null;
 
     return (
-      <div className="modal" onClick={(e) => this.toggleImage(e, "modal")}>
-        {this.renderHandshake(false, "handshake--large")}
+      <div className="modal" onClick={(e) => toggleImage(e, "modal")}>
+        {renderHandshake(false, "handshake--large")}
       </div>
     )
   };
 
-  escapeKeyDown = (event: KeyboardEvent ) => {
+  const escapeKeyDown = (event: KeyboardEvent ) => {
     if (event.code === "Escape") {
-      this.setState({
-        isOpen: false
-      })
+      setIsOpen(false)
     }
-  }
-}
+  };
+
+  return (
+    <React.Fragment>
+      {renderHandshake(true)}
+      {renderModal(isOpen)}
+    </React.Fragment>
+  )
+};

@@ -1,6 +1,6 @@
 import React from "react";
 
-export const About = () => (
+export const About: React.FunctionComponent = () => (
   <div className="about">
     <h2>Who?</h2>
       <p>

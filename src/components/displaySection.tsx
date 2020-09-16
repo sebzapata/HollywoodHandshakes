@@ -2,7 +2,7 @@ import React from "react";
 import { Handshakes } from "../containers/Handshakes";
 import { About } from "../containers/About";
 
-export const DisplaySection = () => {
+export const DisplaySection: React.FunctionComponent = () => {
   const renderOutput = (component: React.ReactNode) => (
     <div className="page__content">
       {component}
