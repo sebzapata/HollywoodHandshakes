@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Header = () => (
+export const Header: React.FunctionComponent = () => (
   <div className="header">
     <h1 className="header__title">Hollywood Handshakes</h1>
     <h2 className="header__subtitle">

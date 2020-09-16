@@ -5,7 +5,7 @@ import { PhotoWithDetails } from "../components/photoWithDetails";
 import { Data } from "../data/data";
 import { Season } from "../types/Season";
 
-export const Handshakes = () => {
+export const Handshakes: React.FunctionComponent = () => {
   const getHandshakes = (season: Season) => {
     const handshakes = season.episodes.map(e => e.handshakes);
 
