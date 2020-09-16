@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useInView } from 'react-intersection-observer';
 import { Handshake } from "../types/Handshake";
 import { Episode } from "../types/Episode";
 import { Season } from "../types/Season";
@@ -11,6 +12,8 @@ interface Props {
 
 export const PhotoWithDetails: React.FunctionComponent<Props> = ({ handshake, episode, season }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const { ref, inView } = useInView({rootMargin: '0px 0px 200px 0px'});
+  const [isIntersecting, setIsIntersecting] = useState(false);
 
   useEffect(() => {
     document.addEventListener("keydown", escapeKeyDown);
@@ -19,6 +22,10 @@ export const PhotoWithDetails: React.FunctionComponent<Props> = ({ handshake, ep
       document.removeEventListener("keydown", escapeKeyDown);
     }
   });
+
+  useEffect(() => {
+    if (inView) setIsIntersecting(true);
+  }, [inView]);
 
 
   const toggleImage = (event: React.MouseEvent<HTMLElement>, limitClickTo?: string) => {
@@ -29,9 +36,9 @@ export const PhotoWithDetails: React.FunctionComponent<Props> = ({ handshake, ep
 
   const renderHandshake = (clickable: boolean, className?: string) => {
     return (
-      <div className={`handshake ${className}`} onClick={(e) => clickable && toggleImage(e)}>
+      <div ref={ref} className={`handshake ${className}`} onClick={(e) => clickable && toggleImage(e)}>
         <div className="handshake__content">
-          <img className="handshake__content__image" src={handshake.image} alt={`Paul Hollywood giving a handshake to ${handshake.recipient} on season ${season.number}, episode ${episode.number} of The Great British Bake Off`} key={handshake.image} />
+          <img className="handshake__content__image" src={isIntersecting ? handshake.image : "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="} alt={`Paul Hollywood giving a handshake to ${handshake.recipient} on season ${season.number}, episode ${episode.number} of The Great British Bake Off`} key={handshake.image} />
           <p className="handshake__content__watermark">{`© ${season.network}`}</p>
         </div>
         <p className="handshake__description">{`Episode ${episode.number}, ${handshake.recipient}, ${handshake.challenge}`}</p>
