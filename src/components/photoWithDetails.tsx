@@ -38,7 +38,7 @@ export const PhotoWithDetails: React.FunctionComponent<Props> = ({ handshake, ep
     return (
       <div ref={ref} className={`handshake ${className}`} onClick={(e) => clickable && toggleImage(e)}>
         <div className="handshake__content">
-          <img className="handshake__content__image" src={isIntersecting ? handshake.image : "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="} alt={`Paul Hollywood giving a handshake to ${handshake.recipient} on season ${season.number}, episode ${episode.number} of The Great British Bake Off`} key={handshake.image} />
+          <img className="handshake__content__image" srcSet={isIntersecting ? `${handshake.image.large} 1920w, ${handshake.image.medium} 989w, ${handshake.image.small} 425w` : "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="} src={isIntersecting ? handshake.image.small : "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="} sizes={`${className !== 'handshake--large' && '(min-width: 990px) 415px'}, 100vw`}  alt={`Paul Hollywood giving a handshake to ${handshake.recipient} on season ${season.number}, episode ${episode.number} of The Great British Bake Off`} key={handshake.image.small} />
           <p className="handshake__content__watermark">{`© ${season.network}`}</p>
         </div>
         <p className="handshake__description">{`Episode ${episode.number}, ${handshake.recipient}, ${handshake.challenge}`}</p>
