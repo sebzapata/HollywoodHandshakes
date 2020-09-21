@@ -1,7 +1,9 @@
 import { Episode } from "../../types/Episode";
 import { Season3Contestants } from "../../types/constants/Season3Contestants";
 import { Challenge } from "../../types/constants/Challenge";
-import Handshake1 from "../../images/handshakes/S03E07 - Ryan.jpg"
+import Handshake1Small from "../../images/handshakes/Small/S03E07 - Ryan.jpg"
+import Handshake1Medium from "../../images/handshakes/Medium/S03E07 - Ryan.jpg"
+import Handshake1Large from "../../images/handshakes/Large/S03E07 - Ryan.jpg"
 
 export const episodeList: Episode[] = [
   {
@@ -34,7 +36,11 @@ export const episodeList: Episode[] = [
       recipient: Season3Contestants.Ryan,
       position: 1,
       challenge: Challenge.Signature,
-      image: Handshake1
+      image: {
+        small: Handshake1Small,
+        medium: Handshake1Medium,
+        large: Handshake1Large,
+      }
     }]
   },
   {

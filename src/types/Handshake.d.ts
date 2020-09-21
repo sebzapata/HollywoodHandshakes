@@ -3,6 +3,10 @@ import {Challenge} from "./constants/Challenge";
 interface Handshake {
   recipient: string;
   challenge: Challenge;
-  image: string;
+  image: {
+    small: string;
+    medium: string;
+    large: string;
+  };
   position: number;
 }
