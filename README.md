@@ -26,6 +26,4 @@ This website can be found at www.hollywoodhandshakes.com
 
 ### How?
 
-If you are interested in how I created this page, please contact me via:
-* https://linkedin.com/in/sebzapata/
-* sebzapata@hotmail.co.uk
+If you are interested in how I created this page, please contact me via:  https://linkedin.com/in/sebzapata/
