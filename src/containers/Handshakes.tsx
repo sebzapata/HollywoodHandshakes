@@ -9,7 +9,11 @@ export const Handshakes: React.FunctionComponent = () => {
   const getHandshakes = (season: Season) => {
     const handshakes = season.episodes.map(e => e.handshakes);
 
-    if(handshakes.every(h => h === null)) {
+    if (handshakes.every(h => h === null)) {
+      if (season.active) {
+        return <p className="handshake__description">No <i>Hollywood Handshakes</i> have been given out in season {season.number} yet</p>
+      }
+
       return <p className="handshake__description">No <i>Hollywood Handshakes</i> were given out in season {season.number}</p>
     }
 

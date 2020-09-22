@@ -1,5 +1,6 @@
 import { Season } from "../types/Season";
 import { season1 } from "./Season 1/season1";
+import { season11 } from './Season 11/season11';
 import { season2 } from "./Season 2/season2";
 import { season3 } from "./Season 3/season3";
 import { season4 } from "./Season 4/season4";
@@ -20,5 +21,6 @@ export const Data: Season[] = [
   season7,
   season8,
   season9,
-  season10
+  season10,
+  season11,
 ];
