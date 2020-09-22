@@ -17,7 +17,9 @@ module.exports = {
             template: './index.html'
         }),
         new CopyWebpackPlugin([
-            { from: 'public', to: 'public' }
+            { from: 'public', to: 'public' },
+            { from: './robots.txt', to: './' },
+            { from: './sitemap.xml', to: './' },
         ])
     ],
     resolve: {
