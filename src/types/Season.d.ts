@@ -4,4 +4,5 @@ interface Season {
   episodes: Episode[];
   number: number;
   network: string;
+  active?: boolean;
 }
