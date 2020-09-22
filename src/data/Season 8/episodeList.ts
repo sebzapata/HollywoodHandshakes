@@ -1,13 +1,27 @@
 import { Challenge } from "../../types/constants/Challenge";
 import { Episode } from "../../types/Episode";
 import { Season8Contestants } from "../../types/constants/Season8Contestants";
-import Handshake12 from "../../images/handshakes/S08E01(1) - Steven.jpg"
-import Handshake13 from "../../images/handshakes/S08E01(2) - Sophie.jpg"
-import Handshake14 from "../../images/handshakes/S08E04 - Liam.jpg"
-import Handshake15 from "../../images/handshakes/S08E05 (1) - Steven.jpg"
-import Handshake16 from "../../images/handshakes/S08E05 (2) - Yan.jpg"
-import Handshake17 from "../../images/handshakes/S08E05 (3) - Stacey.jpg"
-import Handshake18 from "../../images/handshakes/S08E08 - Stacey.jpg"
+import Handshake12Small from "../../images/handshakes/Small/S08E01(1) - Steven.jpg"
+import Handshake12Medium from "../../images/handshakes/Medium/S08E01(1) - Steven.jpg"
+import Handshake12Large from "../../images/handshakes/Large/S08E01(1) - Steven.jpg"
+import Handshake13Small from "../../images/handshakes/Small/S08E01(2) - Sophie.jpg"
+import Handshake13Medium from "../../images/handshakes/Medium/S08E01(2) - Sophie.jpg"
+import Handshake13Large from "../../images/handshakes/Large/S08E01(2) - Sophie.jpg"
+import Handshake14Small from "../../images/handshakes/Small/S08E04 - Liam.jpg"
+import Handshake14Medium from "../../images/handshakes/Medium/S08E04 - Liam.jpg"
+import Handshake14Large from "../../images/handshakes/Large/S08E04 - Liam.jpg"
+import Handshake15Small from "../../images/handshakes/Small/S08E05 (1) - Steven.jpg"
+import Handshake15Medium from "../../images/handshakes/Medium/S08E05 (1) - Steven.jpg"
+import Handshake15Large from "../../images/handshakes/Large/S08E05 (1) - Steven.jpg"
+import Handshake16Small from "../../images/handshakes/Small/S08E05 (2) - Yan.jpg"
+import Handshake16Medium from "../../images/handshakes/Medium/S08E05 (2) - Yan.jpg"
+import Handshake16Large from "../../images/handshakes/Large/S08E05 (2) - Yan.jpg"
+import Handshake17Small from "../../images/handshakes/Small/S08E05 (3) - Stacey.jpg"
+import Handshake17Medium from "../../images/handshakes/Medium/S08E05 (3) - Stacey.jpg"
+import Handshake17Large from "../../images/handshakes/Large/S08E05 (3) - Stacey.jpg"
+import Handshake18Small from "../../images/handshakes/Small/S08E08 - Stacey.jpg"
+import Handshake18Medium from "../../images/handshakes/Medium/S08E08 - Stacey.jpg"
+import Handshake18Large from "../../images/handshakes/Large/S08E08 - Stacey.jpg"
 
 export const episodeList: Episode[] = [
   {
@@ -17,13 +31,21 @@ export const episodeList: Episode[] = [
         recipient: Season8Contestants.Steven,
         challenge: Challenge.Signature,
         position: 1,
-        image: Handshake12
+        image: {
+          small: Handshake12Small,
+          medium: Handshake12Medium,
+          large: Handshake12Large,
+        }
       },
       {
         recipient: Season8Contestants.Sophie,
         challenge: Challenge.Signature,
         position: 2,
-        image: Handshake13
+        image: {
+          small: Handshake13Small,
+          medium: Handshake13Medium,
+          large: Handshake13Large,
+        }
       }
     ]
   },
@@ -41,7 +63,11 @@ export const episodeList: Episode[] = [
       recipient: Season8Contestants.Liam,
       challenge: Challenge.Signature,
       position: 1,
-      image: Handshake14
+      image: {
+        small: Handshake14Small,
+        medium: Handshake14Medium,
+        large: Handshake14Large,
+      }
     }]
   },
   {
@@ -51,19 +77,31 @@ export const episodeList: Episode[] = [
         recipient: Season8Contestants.Steven,
         challenge: Challenge.Signature,
         position: 1,
-        image: Handshake15
+        image: {
+          small: Handshake15Small,
+          medium: Handshake15Medium,
+          large: Handshake15Large,
+        }
       },
       {
         recipient: Season8Contestants.Yan,
         challenge: Challenge.Signature,
         position: 2,
-        image: Handshake16
+        image: {
+          small: Handshake16Small,
+          medium: Handshake16Medium,
+          large: Handshake16Large,
+        }
       },
       {
         recipient: Season8Contestants.Stacey,
         challenge: Challenge.Signature,
         position: 3,
-        image: Handshake17
+        image: {
+          small: Handshake17Small,
+          medium: Handshake17Medium,
+          large: Handshake17Large,
+        }
       }
     ]
   },
@@ -81,7 +119,11 @@ export const episodeList: Episode[] = [
       recipient: Season8Contestants.Stacey,
       challenge: Challenge.Signature,
       position: 1,
-      image: Handshake18
+      image: {
+        small: Handshake18Small,
+        medium: Handshake18Medium,
+        large: Handshake18Large,
+      }
     }]
   },
   {
