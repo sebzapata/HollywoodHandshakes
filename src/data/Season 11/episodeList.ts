@@ -1,8 +1,8 @@
 import { Episode } from "../../types/Episode";
 import { Season11Contestants } from "../../types/constants/Season11Contestants";
 import Handshake35Large from "../../images/handshakes/Large/S11E02 - Lottie.png"
-import Handshake35Medium from "../../images/handshakes/Medium/S11E02 - Lottie.png"
-import Handshake35Small from "../../images/handshakes/Small/S11E02 - Lottie.png"
+import Handshake35Medium from "../../images/handshakes/Medium/S11E02 - Lottie.jpg"
+import Handshake35Small from "../../images/handshakes/Small/S11E02 - Lottie.jpg"
 import { Challenge } from "../../types/constants/Challenge";
 
 
