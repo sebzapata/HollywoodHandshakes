@@ -163,9 +163,8 @@
 
 .handshake__content__watermark {
   color: #fff;
-  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   position: absolute;
-  margin: 1%;
+  margin: 2%;
   bottom: 0;
   left: 0;
 }
@@ -244,6 +243,7 @@
 
   .handshake__content__watermark {
     font-size: 0.6em;
+    text-shadow: 0.9px 0.9px 0.3px black;
   }
 }
 
@@ -263,6 +263,7 @@
 
   .handshake__content__watermark {
     font-size: 0.8em;
+    text-shadow: 1.2px 1.2px 0.4px black;
   }
 }
 
@@ -311,6 +312,7 @@
 
   .handshake__content__watermark {
     font-size: 1em;
+    text-shadow: 1.5px 1.5px 0.5px black;
   }
 
   .modal {
