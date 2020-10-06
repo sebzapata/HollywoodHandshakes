@@ -9,9 +9,9 @@ interface Props {
 export const AccordionItem: React.FunctionComponent<Props> = ({ title, children }) => {
   const [isAccordionOpen, setIsAccordionOpen] = useState(false);
 
-  const umamiId = title.match(/Season \d+/g)[0].replace(/\s/g, '');
+  const umamiId = title.match(/Season \d+/g)[0].replace(/\s/g, '-').toLocaleLowerCase();
   return (
-    <div className={`accordion__section umami--click--${umamiId}Accordion`}>
+    <div className={`accordion__section umami--click--${umamiId}-accordion`}>
       <div className="accordion__section__header" onClick={() => setIsAccordionOpen(!isAccordionOpen)}>
         <button className="accordion__section__header__title">{title}</button>
         <img className="accordion__section__header__icon" src={isAccordionOpen ? minusIcon : plusIcon} alt={isAccordionOpen ? "Close accordion" : "Open accordion"}/>
