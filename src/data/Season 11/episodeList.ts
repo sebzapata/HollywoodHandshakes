@@ -4,7 +4,9 @@ import { Season11Contestants } from "../../types/constants/Season11Contestants";
 import Handshake35Small from "../../images/handshakes/Small/S11E02 - Lottie.jpg"
 import Handshake35Medium from "../../images/handshakes/Medium/S11E02 - Lottie.jpg"
 import Handshake35Large from "../../images/handshakes/Large/S11E02 - Lottie.jpg"
-
+import Handshake36Small from "../../images/handshakes/Small/S11E03 - Hermine.jpg"
+import Handshake36Medium from "../../images/handshakes/Medium/S11E03 - Hermine.jpg"
+import Handshake36Large from "../../images/handshakes/Large/S11E03 - Hermine.jpg"
 
 export const episodeList: Episode[] = [
   {
@@ -26,7 +28,16 @@ export const episodeList: Episode[] = [
   },
   {
     number: 3,
-    handshakes: null
+    handshakes: [{
+      recipient: Season11Contestants.Hermine,
+      challenge: Challenge.Signature,
+      position: 1,
+      image: {
+        small: Handshake36Small,
+        medium: Handshake36Medium,
+        large: Handshake36Large,
+      }
+    }]
   },
   {
     number: 4,
