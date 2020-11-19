@@ -7,6 +7,9 @@ import Handshake35Large from "../../images/handshakes/Large/S11E02 - Lottie.jpg"
 import Handshake36Small from "../../images/handshakes/Small/S11E03 - Hermine.jpg"
 import Handshake36Medium from "../../images/handshakes/Medium/S11E03 - Hermine.jpg"
 import Handshake36Large from "../../images/handshakes/Large/S11E03 - Hermine.jpg"
+import Handshake37Small from "../../images/handshakes/Small/S11E09 - Peter.jpg"
+import Handshake37Medium from "../../images/handshakes/Medium/S11E09 - Peter.jpg"
+import Handshake37Large from "../../images/handshakes/Large/S11E09 - Peter.jpg"
 
 export const episodeList: Episode[] = [
   {
@@ -53,7 +56,16 @@ export const episodeList: Episode[] = [
   },
   {
     number: 7,
-    handshakes: null
+    handshakes: [{
+      recipient: Season11Contestants.Peter,
+      challenge: Challenge.Signature,
+      position: 1,
+      image: {
+        small: Handshake37Small,
+        medium: Handshake37Medium,
+        large: Handshake37Large,
+      }
+    }]
   },
   {
     number: 8,
