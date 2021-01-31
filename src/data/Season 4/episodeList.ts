@@ -20,16 +20,7 @@ export const episodeList: Episode[] = [
   },
   {
     number: 4,
-    handshakes: [{
-      recipient: Season4Contestants.Frances,
-      position: 1,
-      challenge: Challenge.Signature,
-      image: {
-        small: Handshake2Small,
-        medium: Handshake2Medium,
-        large: Handshake2Large,
-      }
-    }]
+    handshakes: null,
   },
   {
     number: 5,
@@ -49,7 +40,16 @@ export const episodeList: Episode[] = [
   },
   {
     number: 9,
-    handshakes: null
+    handshakes: [{
+      recipient: Season4Contestants.Frances,
+      position: 1,
+      challenge: Challenge.Signature,
+      image: {
+        small: Handshake2Small,
+        medium: Handshake2Medium,
+        large: Handshake2Large,
+      }
+    }]
   },
   {
     number: 10,
