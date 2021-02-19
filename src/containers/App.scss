@@ -80,6 +80,13 @@
   font-family: Cassandra;
   text-align: center;
   margin-top: 0;
+  user-select: none;
+  cursor: pointer;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }
 
 .header__subtitle {
@@ -195,11 +202,12 @@
   text-decoration: none;
   font-style: italic;
   font-weight: bolder;
-  color: #999;
+  color: black;
+  font-size: 1.2em;
 }
 
 .footer__link:hover {
-  color: black;
+  color: #999;
 }
 
 .about {
@@ -238,7 +246,7 @@
   }
 
   .footer__link{
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   .handshake__content__watermark {
