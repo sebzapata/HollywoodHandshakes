@@ -29,7 +29,11 @@ export const About: React.FunctionComponent = () => (
     </p>
     <h2>How?</h2>
     <p>
-      If you are interested in how I created this page, go ahead, please contact me via: <a href="https://www.linkedin.com/in/sebzapata">linkedin.com/in/sebzapata</a>
+      If you are interested in how I created this page, please contact me via:
+      <ul>
+        <li><a href="https://linkedin.com/in/sebzapata">linkedin.com/in/sebzapata</a></li>
+        <li><a href="mailto:sebzapata@hotmail.co.uk">sebzapata@hotmail.co.uk</a></li>
+      </ul>
     </p>
   </div>
 );
