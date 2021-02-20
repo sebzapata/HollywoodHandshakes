@@ -9,7 +9,6 @@ export const DisplaySection: React.FunctionComponent = () => {
     </div>
   );
 
-  console.log("pathname", window.location.pathname)
   switch(window.location.pathname) {
     case "/":
       return renderOutput(<Handshakes />);
