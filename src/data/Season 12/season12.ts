@@ -3,9 +3,9 @@ import { Networks } from "../../types/constants/Networks";
 import { episodeList } from "./episodeList";
 
 
-export const season11: Season = {
+export const season12: Season = {
   network: Networks.Channel4,
-  number: 11,
+  number: 12,
   episodes: episodeList,
-  active: false,
+  active: true,
 };
