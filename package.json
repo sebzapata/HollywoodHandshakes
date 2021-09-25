@@ -29,6 +29,7 @@
     "url": "https://github.com/sebzapata/HollywoodHandshakes/issues"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^3.9.0",
     "classnames": "^2.3.1",
     "next": "11.1.2",
     "react": "17.0.2",
