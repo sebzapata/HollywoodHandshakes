@@ -35,7 +35,7 @@ const AboutPage: NextPage = () => {
       </p>
       <h2>Where?</h2>
       <p>
-        This website can be found at <Link href="/"><a>www.hollywoodhandshakes.com</a></Link>
+        This website can be found at <Link href="/">www.hollywoodhandshakes.com</Link>
       </p>
       <h2>How?</h2>
       <p>
