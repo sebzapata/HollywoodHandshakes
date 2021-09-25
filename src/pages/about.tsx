@@ -39,8 +39,7 @@ const AboutPage: NextPage = () => {
       </p>
       <h2>How?</h2>
       <p>
-        If you are interested in how I created this page, please contact me via: <Link href="https://linkedin.com/in/sebzapata"><a
-         target="_blank" rel="noreferrer">linkedin.com/in/sebzapata</a></Link>
+        If you are interested in how I created this page, please contact me via: <a href="https://linkedin.com/in/sebzapata" target="_blank" rel="noreferrer">linkedin.com/in/sebzapata</a>
       </p>
     </div>
     )
