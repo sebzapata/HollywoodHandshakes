@@ -1,0 +1,15 @@
+.handshake__description {
+  font-family: Architect;
+  font-size: 0.9em;
+  font-weight: bolder;
+  text-align: center;
+
+  @media only screen and (min-width: 426px) and (max-width: 989px) {
+    font-size: 1.1em;
+
+  }
+
+  @media only screen and (min-width: 990px) {
+    font-size: 1.2em;
+  }
+ }

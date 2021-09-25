@@ -1,5 +1,7 @@
 import React from "react";
 
+import styles from './footer.module.scss';
+
 const links = [
   {
     text: `© ${new Date().getFullYear()} hollywoodhandshakes.com`,
@@ -12,8 +14,8 @@ const links = [
 ];
 
 export const Footer: React.FunctionComponent = () => (
-  <div className="footer">
-    {links.map((x) => <a href={x.route} className="footer__link">{x.text}</a>)}
+  <div className={styles.footer}>
+    {links.map((x, i) => <a href={x.route} className={styles.footer__link} key={i}>{x.text}</a>)}
   </div>
 );
 

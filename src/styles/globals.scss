@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Architect";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Architect"),
+  url("../fonts/ArchitectRegular.woff2")format("woff2"),
+  url("../fonts/ArchitectRegular.woff")format("woff");
+}
+
+@font-face {
+  font-family: "Cassandra";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cassandra"),
+  url("../fonts/Cassandra.woff2")format("woff2"),
+  url("../fonts/Cassandra.woff")format("woff");
+}
+
+@font-face {
+  font-family: "HussarBoldSuperCondensed";
+  font-style: normal;
+  font-weight: 400;
+  src: local("HussarBoldSuperCondensed"),
+  url("../fonts/HussarBoldSuperCondensed.woff2")format("woff2"),
+  url("../fonts/HussarBoldSuperCondensed.woff")format("woff");
+}
+
+@font-face {
+  font-family: "HussarBold";
+  font-style: normal;
+  font-weight: 400;
+  src: local("HussarBold"),
+  url("../fonts/HussarBold.woff2")format("woff2"),
+  url("../fonts/HussarBold.woff")format("woff");
+}
+
+#__next {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+}
+
