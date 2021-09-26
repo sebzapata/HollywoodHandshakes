@@ -4,9 +4,9 @@ interface Handshake {
   recipient: string;
   challenge: Challenge;
   image: {
-    small: StaticImageData;
-    medium: StaticImageData;
-    large: StaticImageData;
+    small: string;
+    medium: string;
+    large: string;
   };
   position: number;
 }
