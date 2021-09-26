@@ -1,9 +1,9 @@
 import {Episode} from "../../types/Episode";
 import {Season4Contestants} from "../../types/constants/Season4Contestants";
 import {Challenge} from "../../types/constants/Challenge";
-import Handshake2Small from "../../images/handshakes/Small/S04E09 - Frances.jpg"
-import Handshake2Medium from "../../images/handshakes/Medium/S04E09 - Frances.jpg"
-import Handshake2Large from "../../images/handshakes/Large/S04E09 - Frances.jpg"
+import Handshake2Small from "../../../public/handshakes/Small/S04E09 - Frances.jpg"
+import Handshake2Medium from "../../../public/handshakes/Medium/S04E09 - Frances.jpg"
+import Handshake2Large from "../../../public/handshakes/Large/S04E09 - Frances.jpg"
 
 export const episodeList: Episode[] = [
   {

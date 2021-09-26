@@ -1,15 +1,15 @@
 import { Challenge } from "../../types/constants/Challenge";
 import { Episode } from "../../types/Episode";
 import { Season11Contestants } from "../../types/constants/Season11Contestants";
-import Handshake35Small from "../../images/handshakes/Small/S11E02 - Lottie.jpg"
-import Handshake35Medium from "../../images/handshakes/Medium/S11E02 - Lottie.jpg"
-import Handshake35Large from "../../images/handshakes/Large/S11E02 - Lottie.jpg"
-import Handshake36Small from "../../images/handshakes/Small/S11E03 - Hermine.jpg"
-import Handshake36Medium from "../../images/handshakes/Medium/S11E03 - Hermine.jpg"
-import Handshake36Large from "../../images/handshakes/Large/S11E03 - Hermine.jpg"
-import Handshake37Small from "../../images/handshakes/Small/S11E09 - Peter.jpg"
-import Handshake37Medium from "../../images/handshakes/Medium/S11E09 - Peter.jpg"
-import Handshake37Large from "../../images/handshakes/Large/S11E09 - Peter.jpg"
+import Handshake35Small from "../../../public/handshakes/Small/S11E02 - Lottie.jpg"
+import Handshake35Medium from "../../../public/handshakes/Medium/S11E02 - Lottie.jpg"
+import Handshake35Large from "../../../public/handshakes/Large/S11E02 - Lottie.jpg"
+import Handshake36Small from "../../../public/handshakes/Small/S11E03 - Hermine.jpg"
+import Handshake36Medium from "../../../public/handshakes/Medium/S11E03 - Hermine.jpg"
+import Handshake36Large from "../../../public/handshakes/Large/S11E03 - Hermine.jpg"
+import Handshake37Small from "../../../public/handshakes/Small/S11E09 - Peter.jpg"
+import Handshake37Medium from "../../../public/handshakes/Medium/S11E09 - Peter.jpg"
+import Handshake37Large from "../../../public/handshakes/Large/S11E09 - Peter.jpg"
 
 export const episodeList: Episode[] = [
   {
