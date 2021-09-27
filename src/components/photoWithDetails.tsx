@@ -49,6 +49,7 @@ export const PhotoWithDetails: React.FunctionComponent<Props> = ({ handshake, ep
             width={1920}
             height={1080}
             layout="responsive"
+            unoptimized
           />
           <p className={styles.handshake__content__watermark}>{`© ${season.network}`}</p>
         </div>
