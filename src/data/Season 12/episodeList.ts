@@ -1,7 +1,7 @@
 import { Challenge } from '../../types/constants/Challenge';
 import { Season12Contestants } from '../../types/constants/Season12Contestants';
 import { Episode } from "../../types/Episode";
-import Handshake38Large from "../../../public/handshakes/Large/S12E03 - Giuseppe.png"
+import Handshake38Large from "../../../public/handshakes/Large/S12E03 - Giuseppe.jpg"
 
 export const episodeList: Episode[] = [
   {
