@@ -1,4 +1,7 @@
+import { Challenge } from '../../types/constants/Challenge';
+import { Season12Contestants } from '../../types/constants/Season12Contestants';
 import { Episode } from "../../types/Episode";
+import Handshake38Large from "../../../public/handshakes/Large/S12E03 - Giuseppe.png"
 
 export const episodeList: Episode[] = [
   {
@@ -11,7 +14,14 @@ export const episodeList: Episode[] = [
   },
   {
     number: 3,
-    handshakes: null
+    handshakes: [{
+      recipient: Season12Contestants.Giuseppe,
+      challenge: Challenge.Signature,
+      position: 1,
+      image: {
+        large: Handshake38Large,
+      }
+    }]
   },
   {
     number: 4,
