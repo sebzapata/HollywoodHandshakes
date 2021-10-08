@@ -1,12 +1,12 @@
 import {Episode} from "../../types/Episode";
 import {Season5Contestants} from "../../types/constants/Season5Contestants";
 import {Challenge} from "../../types/constants/Challenge";
-import Handshake3Small from "../../images/handshakes/Small/S05E02 - Norman.jpg"
-import Handshake3Medium from "../../images/handshakes/Medium/S05E02 - Norman.jpg"
-import Handshake3Large from "../../images/handshakes/Large/S05E02 - Norman.jpg"
-import Handshake4Small from "../../images/handshakes/Small/S05E03 - Luis.jpg"
-import Handshake4Medium from "../../images/handshakes/Medium/S05E03 - Luis.jpg"
-import Handshake4Large from "../../images/handshakes/Large/S05E03 - Luis.jpg"
+import Handshake3Small from "../../../public/handshakes/Small/S05E02 - Norman.jpg"
+import Handshake3Medium from "../../../public/handshakes/Medium/S05E02 - Norman.jpg"
+import Handshake3Large from "../../../public/handshakes/Large/S05E02 - Norman.jpg"
+import Handshake4Small from "../../../public/handshakes/Small/S05E03 - Luis.jpg"
+import Handshake4Medium from "../../../public/handshakes/Medium/S05E03 - Luis.jpg"
+import Handshake4Large from "../../../public/handshakes/Large/S05E03 - Luis.jpg"
 
 export const episodeList: Episode[] = [
   {

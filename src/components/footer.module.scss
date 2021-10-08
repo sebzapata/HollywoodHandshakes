@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: #bfc1c3 1px solid;
+  align-items: center;
+}
+
+.footer__link {
+  margin: 1em;
+  font-family: Architect;
+  cursor: pointer;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bolder;
+  color: black;
+  font-size: 1.2em;
+
+  @media only screen and (max-width: 425px) {
+    font-size: 1em;
+  }
+}
+
+.footer__link:hover {
+  color: #999;
+}

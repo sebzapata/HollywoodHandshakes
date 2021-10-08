@@ -1,18 +1,18 @@
 import { Challenge } from "../../types/constants/Challenge";
 import { Episode } from "../../types/Episode";
 import { Season10Contestants } from "../../types/constants/Season10Contestants";
-import Handshake31Small from "../../images/handshakes/Small/S10E03 - Michael.jpg"
-import Handshake31Medium from "../../images/handshakes/Medium/S10E03 - Michael.jpg"
-import Handshake31Large from "../../images/handshakes/Large/S10E03 - Michael.jpg"
-import Handshake32Small from "../../images/handshakes/Small/S10E05 - David.jpg"
-import Handshake32Medium from "../../images/handshakes/Medium/S10E05 - David.jpg"
-import Handshake32Large from "../../images/handshakes/Large/S10E05 - David.jpg"
-import Handshake33Small from "../../images/handshakes/Small/S10E07 (1) - Steph.jpg"
-import Handshake33Medium from "../../images/handshakes/Medium/S10E07 (1) - Steph.jpg"
-import Handshake33Large from "../../images/handshakes/Large/S10E07 (1) - Steph.jpg"
-import Handshake34Small from "../../images/handshakes/Small/S10E07 (2) - Henry.jpg"
-import Handshake34Medium from "../../images/handshakes/Medium/S10E07 (2) - Henry.jpg"
-import Handshake34Large from "../../images/handshakes/Large/S10E07 (2) - Henry.jpg"
+import Handshake31Small from "../../../public/handshakes/Small/S10E03 - Michael.jpg"
+import Handshake31Medium from "../../../public/handshakes/Medium/S10E03 - Michael.jpg"
+import Handshake31Large from "../../../public/handshakes/Large/S10E03 - Michael.jpg"
+import Handshake32Small from "../../../public/handshakes/Small/S10E05 - David.jpg"
+import Handshake32Medium from "../../../public/handshakes/Medium/S10E05 - David.jpg"
+import Handshake32Large from "../../../public/handshakes/Large/S10E05 - David.jpg"
+import Handshake33Small from "../../../public/handshakes/Small/S10E07 (1) - Steph.jpg"
+import Handshake33Medium from "../../../public/handshakes/Medium/S10E07 (1) - Steph.jpg"
+import Handshake33Large from "../../../public/handshakes/Large/S10E07 (1) - Steph.jpg"
+import Handshake34Small from "../../../public/handshakes/Small/S10E07 (2) - Henry.jpg"
+import Handshake34Medium from "../../../public/handshakes/Medium/S10E07 (2) - Henry.jpg"
+import Handshake34Large from "../../../public/handshakes/Large/S10E07 (2) - Henry.jpg"
 
 export const episodeList: Episode[] = [
   {

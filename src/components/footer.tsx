@@ -1,4 +1,7 @@
 import React from "react";
+import Link from 'next/link';
+
+import styles from './footer.module.scss';
 
 const links = [
   {
@@ -12,8 +15,8 @@ const links = [
 ];
 
 export const Footer: React.FunctionComponent = () => (
-  <div className="footer">
-    {links.map((x) => <a href={x.route} className="footer__link">{x.text}</a>)}
+  <div className={styles.footer}>
+    {links.map((x, i) => <Link href={x.route} key={i}><a className={styles.footer__link}>{x.text}</a></Link>)}
   </div>
 );
 

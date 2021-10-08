@@ -1,15 +1,15 @@
 import {Episode} from "../../types/Episode";
 import {Season6Contestants} from "../../types/constants/Season6Contestants";
 import {Challenge} from "../../types/constants/Challenge";
-import Handshake5Small from "../../images/handshakes/Small/S06E03 - Paul.jpg"
-import Handshake5Medium from "../../images/handshakes/Medium/S06E03 - Paul.jpg"
-import Handshake5Large from "../../images/handshakes/Large/S06E03 - Paul.jpg"
-import Handshake6Small from "../../images/handshakes/Small/S06E07 - Tamal.jpg"
-import Handshake6Medium from "../../images/handshakes/Medium/S06E07 - Tamal.jpg"
-import Handshake6Large from "../../images/handshakes/Large/S06E07 - Tamal.jpg"
-import Handshake7Small from "../../images/handshakes/Small/S06E09 - Nadiya.jpg"
-import Handshake7Medium from "../../images/handshakes/Medium/S06E09 - Nadiya.jpg"
-import Handshake7Large from "../../images/handshakes/Large/S06E09 - Nadiya.jpg"
+import Handshake5Small from "../../../public/handshakes/Small/S06E03 - Paul.jpg"
+import Handshake5Medium from "../../../public/handshakes/Medium/S06E03 - Paul.jpg"
+import Handshake5Large from "../../../public/handshakes/Large/S06E03 - Paul.jpg"
+import Handshake6Small from "../../../public/handshakes/Small/S06E07 - Tamal.jpg"
+import Handshake6Medium from "../../../public/handshakes/Medium/S06E07 - Tamal.jpg"
+import Handshake6Large from "../../../public/handshakes/Large/S06E07 - Tamal.jpg"
+import Handshake7Small from "../../../public/handshakes/Small/S06E09 - Nadiya.jpg"
+import Handshake7Medium from "../../../public/handshakes/Medium/S06E09 - Nadiya.jpg"
+import Handshake7Large from "../../../public/handshakes/Large/S06E09 - Nadiya.jpg"
 
 export const episodeList: Episode[] = [
   {

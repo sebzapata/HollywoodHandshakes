@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { useInView } from 'react-intersection-observer';
+import classNames from 'classnames';
+import Image from 'next/image';
+
 import { Handshake } from "../types/Handshake";
 import { Episode } from "../types/Episode";
 import { Season } from "../types/Season";
+
+import styles from './photoWithDetails.module.scss';
 
 interface Props {
   handshake: Handshake
@@ -34,14 +39,21 @@ export const PhotoWithDetails: React.FunctionComponent<Props> = ({ handshake, ep
     }
   };
 
-  const renderHandshake = (clickable: boolean, className?: string) => {
+  const renderHandshake = (clickable: boolean, isLarge: boolean) => {
     return (
-      <div ref={ref} className={`handshake ${className}`} onClick={(e) => clickable && toggleImage(e)}>
-        <div className="handshake__content">
-          <img className="handshake__content__image" srcSet={isIntersecting ? `${handshake.image.large} 1920w, ${handshake.image.medium} 989w, ${handshake.image.small} 425w` : "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="} src={isIntersecting ? handshake.image.small : "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="} alt={`Paul Hollywood giving a handshake to ${handshake.recipient} on season ${season.number}, episode ${episode.number} of The Great British Bake Off`} key={handshake.image.small} />
-          <p className="handshake__content__watermark">{`© ${season.network}`}</p>
+      <div ref={ref} className={classNames(styles.handshake, {[styles.handshakeLarge]: isLarge})} onClick={(e) => clickable && toggleImage(e)}>
+        <div className={styles.handshake__content}>
+          <Image
+            src={isIntersecting ? handshake.image.large : "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="}
+            alt={`Paul Hollywood giving a handshake to ${handshake.recipient} on season ${season.number}, episode ${episode.number} of The Great British Bake Off`}
+            width={1920}
+            height={1080}
+            layout="responsive"
+            unoptimized
+          />
+          <p className={styles.handshake__content__watermark}>{`© ${season.network}`}</p>
         </div>
-        <p className="handshake__description">{`Episode ${episode.number}, ${handshake.recipient}, ${handshake.challenge}`}</p>
+        <p className={styles.handshake__description}>{`Episode ${episode.number}, ${handshake.recipient}, ${handshake.challenge}`}</p>
       </div>
     )
   };
@@ -50,8 +62,8 @@ export const PhotoWithDetails: React.FunctionComponent<Props> = ({ handshake, ep
     if (!isOpen) return null;
 
     return (
-      <div className="modal" onClick={(e) => toggleImage(e, "modal")}>
-        {renderHandshake(false, "handshake--large")}
+      <div className={styles.modal} onClick={(e) => toggleImage(e, styles.modal)}>
+        {renderHandshake(false, true)}
       </div>
     )
   };
@@ -64,7 +76,7 @@ export const PhotoWithDetails: React.FunctionComponent<Props> = ({ handshake, ep
 
   return (
     <React.Fragment>
-      {renderHandshake(true)}
+      {renderHandshake(true, false)}
       {renderModal(isOpen)}
     </React.Fragment>
   )
