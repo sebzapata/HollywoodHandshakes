@@ -17,7 +17,7 @@ export const AccordionItem: React.FunctionComponent<Props> = ({ title, children 
       <div className={styles.accordion__section__header} onClick={() => setIsAccordionOpen(!isAccordionOpen)}>
         <button className={styles.accordion__section__header__title}>{title}</button>
         <div className={styles.accordion__section__header__icon}>
-          <Image src={isAccordionOpen ? minusIcon : plusIcon} alt={isAccordionOpen ? "Close accordion" : "Open accordion"}/>
+          <Image src={isAccordionOpen ? minusIcon : plusIcon} alt={isAccordionOpen ? "Close accordion" : "Open accordion"} unoptimized />
         </div>
       </div>
       {isAccordionOpen && <div className={styles.accordion__section__panel}>
