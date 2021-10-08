@@ -4,8 +4,8 @@ interface Handshake {
   recipient: string;
   challenge: Challenge;
   image: {
-    small: StaticImageData;
-    medium: StaticImageData;
+    small?: StaticImageData;
+    medium?: StaticImageData;
     large: StaticImageData;
   };
   position: number;
