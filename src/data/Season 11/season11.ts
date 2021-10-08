@@ -7,5 +7,5 @@ export const season11: Season = {
   network: Networks.Channel4,
   number: 11,
   episodes: episodeList,
-  active: true,
+  active: false,
 };
