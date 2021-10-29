@@ -4,6 +4,7 @@ import { Episode } from "../../types/Episode";
 import Handshake38Large from "../../../public/handshakes/Large/S12E03 - Giuseppe.jpg"
 import Handshake39Large from "../../../public/handshakes/Large/S12E04 - Chigs.jpg"
 import Handshake40Large from "../../../public/handshakes/Large/S12E05 - Jurgen.jpg"
+import Handshake41Large from "../../../public/handshakes/Large/S12E06 - Crystelle.jpg"
 
 export const episodeList: Episode[] = [
   {
@@ -50,7 +51,15 @@ export const episodeList: Episode[] = [
   },
   {
     number: 6,
-    handshakes: null
+    handshakes: [{
+      recipient: Season12Contestants.Crystelle,
+      challenge: Challenge.Showstopper,
+      position: 1,
+      image: {
+        large: Handshake41Large,
+      }
+    }]
+
   },
   {
     number: 7,
