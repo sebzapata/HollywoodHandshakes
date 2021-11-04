@@ -3,8 +3,10 @@ import '../styles/globals.scss'
 import type { AppProps } from 'next/app'
 import { Footer } from '../components/footer';
 import { Header } from '../components/header';
+import {  ToastNotification }  from '../components/toastNotification';
 
 import styles from './app.module.scss';
+import '../components/ReactToastify.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -51,6 +53,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <div className={styles.page__content}>
         <Component {...pageProps} />
       </div>
+      <ToastNotification />
       <Footer />
     </div>
     </>
