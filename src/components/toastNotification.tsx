@@ -22,7 +22,7 @@ export const ToastNotification: React.FunctionComponent = () => {
         position="bottom-left"
         autoClose={false}
         newestOnTop={false}
-        closeOnClick={false}
+        closeOnClick={true}
         rtl={false}
         pauseOnFocusLoss={false}
         draggable
