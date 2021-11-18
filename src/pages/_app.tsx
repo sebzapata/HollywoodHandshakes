@@ -4,11 +4,15 @@ import type { AppProps } from 'next/app'
 import { Footer } from '../components/footer';
 import { Header } from '../components/header';
 import {  ToastNotification }  from '../components/toastNotification';
+import * as Swetrix from 'swetrix'
 
 import styles from './app.module.scss';
 import '../components/ReactToastify.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
+  Swetrix.init('8bL-aSJYw2jV');
+  Swetrix.trackViews();
+
   return (
     <>
       <head>
