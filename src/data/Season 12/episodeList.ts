@@ -5,6 +5,9 @@ import Handshake38Large from "../../../public/handshakes/Large/S12E03 - Giuseppe
 import Handshake39Large from "../../../public/handshakes/Large/S12E04 - Chigs.jpg"
 import Handshake40Large from "../../../public/handshakes/Large/S12E05 - Jurgen.jpg"
 import Handshake41Large from "../../../public/handshakes/Large/S12E06 - Crystelle.jpg"
+import Handshake42Large from "../../../public/handshakes/Large/S12E09 - Chigs.jpg"
+import Handshake43Large from "../../../public/handshakes/Large/S12E09 - Crystelle.jpg"
+import Handshake44Large from "../../../public/handshakes/Large/S12E09 - Giuseppe.jpg"
 
 export const episodeList: Episode[] = [
   {
@@ -71,7 +74,32 @@ export const episodeList: Episode[] = [
   },
   {
     number: 9,
-    handshakes: null
+    handshakes: [
+      {
+        recipient: Season12Contestants.Chigs,
+        challenge: Challenge.Signature,
+        position: 1,
+        image: {
+          large: Handshake42Large,
+        }
+      },
+      {
+        recipient: Season12Contestants.Crystelle,
+        challenge: Challenge.Signature,
+        position: 2,
+        image: {
+          large: Handshake43Large,
+        }
+      },
+      {
+        recipient: Season12Contestants.Giuseppe,
+        challenge: Challenge.Signature,
+        position: 3,
+        image: {
+          large: Handshake44Large,
+        }
+      }
+    ]
   },
   {
     number: 10,
