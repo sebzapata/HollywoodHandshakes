@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <head>
-        <script async defer data-website-id="eec4c5e0-f148-404b-8501-fc59a0d1d9bb" src="https://sebzapata-umami.herokuapp.com/umami.js"></script>
+        <script async defer data-website-id="e6394c07-d009-488b-a545-3746cb915e32" src="https://hollywoodhandshakes-umami.vercel.app/umami.js"></script>
         <script data-goatcounter="https://hollywoodhandshakes.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
         <meta charSet="utf-8"/>
         <title>Paul Hollywood's Handshake Collection from The Great British Bake Off</title>
