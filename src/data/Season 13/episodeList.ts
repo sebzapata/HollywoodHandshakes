@@ -13,7 +13,7 @@ export const episodeList: Episode[] = [
     number: 2,
     handshakes: [
       {
-        recipient: Season13Contestants.Maxy,
+        recipient: Season13Contestants.Dawn,
         challenge: Challenge.Signature,
         position: 1,
         image: {
@@ -21,7 +21,7 @@ export const episodeList: Episode[] = [
         },
       },
       {
-        recipient: Season13Contestants.Dawn,
+        recipient: Season13Contestants.Maxy,
         challenge: Challenge.Signature,
         position: 1,
         image: {
