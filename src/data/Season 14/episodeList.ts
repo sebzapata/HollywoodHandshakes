@@ -1,9 +1,9 @@
 import { Challenge } from "../../types/constants/Challenge";
 import { Season14Contestants } from "../../types/constants/Season14Contestants";
 import { Episode } from "../../types/Episode";
-import Handshake49Large from "../../../public/handshakes/Large/S14E02 - Tasha.png";
-import Handshake50Large from "../../../public/handshakes/Large/S14E02 - Josh.png";
-import Handshake51Large from "../../../public/handshakes/Large/S14E05 - Cristy.png";
+import Handshake49Large from "../../../public/handshakes/Large/S14E02 - Tasha.jpg";
+import Handshake50Large from "../../../public/handshakes/Large/S14E02 - Josh.jpg";
+import Handshake51Large from "../../../public/handshakes/Large/S14E05 - Cristy.jpg";
 
 export const episodeList: Episode[] = [
   {

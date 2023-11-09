@@ -3,8 +3,8 @@ import { Season13Contestants } from "../../types/constants/Season13Contestants";
 import { Episode } from "../../types/Episode";
 import Handshake45Large from "../../../public/handshakes/Large/S13E02 - Dawn.jpg";
 import Handshake46Large from "../../../public/handshakes/Large/S13E02 - Maxy.jpg";
-import Handshake47Large from "../../../public/handshakes/Large/S13E06 - Maxy.png";
-import Handshake48Large from "../../../public/handshakes/Large/S13E06 - Syabira.png";
+import Handshake47Large from "../../../public/handshakes/Large/S13E06 - Maxy.jpg";
+import Handshake48Large from "../../../public/handshakes/Large/S13E06 - Syabira.jpg";
 
 export const episodeList: Episode[] = [
   {
