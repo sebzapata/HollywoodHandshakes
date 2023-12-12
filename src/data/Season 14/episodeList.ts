@@ -4,6 +4,7 @@ import { Episode } from "../../types/Episode";
 import Handshake49Large from "../../../public/handshakes/Large/S14E02 - Tasha.jpg";
 import Handshake50Large from "../../../public/handshakes/Large/S14E02 - Josh.jpg";
 import Handshake51Large from "../../../public/handshakes/Large/S14E05 - Cristy.jpg";
+import Handshake52Large from "../../../public/handshakes/Large/S14E08 - Matty.jpg";
 
 export const episodeList: Episode[] = [
   {
@@ -37,9 +38,22 @@ export const episodeList: Episode[] = [
       {
         recipient: Season14Contestants.Cristy,
         challenge: Challenge.Signature,
-        position: 2,
+        position: 1,
         image: {
           large: Handshake51Large,
+        },
+      },
+    ],
+  },
+  {
+    number: 8,
+    handshakes: [
+      {
+        recipient: Season14Contestants.Matty,
+        challenge: Challenge.Signature,
+        position: 1,
+        image: {
+          large: Handshake52Large,
         },
       },
     ],
